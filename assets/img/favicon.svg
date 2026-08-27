@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Abonnement IPTV France">
+  <defs>
+    <linearGradient id="lg-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f7dff"/><stop offset=".55" stop-color="#1a56d6"/><stop offset="1" stop-color="#0b2258"/>
+    </linearGradient>
+    <clipPath id="lg-socle"><rect x="14" y="38.5" width="20" height="5" rx="2.5"/></clipPath>
+  </defs>
+  <rect x="3" y="6" width="42" height="29" rx="6.5" fill="url(#lg-body)"/>
+  <path d="M19.5 14.5 33 21.5 19.5 28.5z" fill="#f4f7ff"/>
+  <rect x="22.4" y="35" width="3.2" height="4" fill="#1a56d6"/>
+  <g clip-path="url(#lg-socle)">
+    <rect x="14" y="38.5" width="6.7" height="5" fill="#2f7dff"/>
+    <rect x="20.7" y="38.5" width="6.7" height="5" fill="#f4f7ff"/>
+    <rect x="27.4" y="38.5" width="6.6" height="5" fill="#e2504a"/>
+  </g>
+</svg>
