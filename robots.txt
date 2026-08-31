@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
 
-Disallow: /_sources/
-
-Sitemap: https://abonnement-iptv-france.website/sitemap.xml
+Sitemap: https://votre-domaine.fr/sitemap.xml
