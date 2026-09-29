@@ -299,11 +299,9 @@ if len(indicatifs) < 200:
 if 'value="+33" selected' not in home:
     err("l’indicatif France +33 n’est pas sélectionné par défaut")
 paiements = re.findall(r'name="paiement" value="([^"]+)"', home)
-if paiements != ["Carte bancaire", "PayPal"]:
+if paiements != ["Carte bancaire"]:
     err("modes de paiement inattendus : %s" % paiements)
-if "M15.607 4.653H8.941" not in home:
-    err("la marque PayPal officielle est absente")
-ok("%d indicatifs (France par défaut) ; paiement : Carte bancaire + PayPal officiel" % len(indicatifs))
+ok("%d indicatifs (France par défaut) ; paiement : Carte bancaire" % len(indicatifs))
 
 # Guides d'installation par appareil
 guides = re.findall(r'data-guide-panel="([a-z]+)"', home)
