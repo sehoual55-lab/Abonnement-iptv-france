@@ -424,6 +424,7 @@ def main():
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap">
 <style>__CSS__</style>
+<!-- WA-ORDER --><script src="/wa-order.js?v=2"></script>
 </head>
 <body>
   <header class="intro">
