@@ -49,7 +49,7 @@ SHELL = """<!DOCTYPE html>
   ]
 }}
 </script>
-<!-- WA-ORDER --><script src="/wa-order.js?v=2"></script>
+<!-- WA-ORDER --><script src="/wa-order.js?v=9"></script>
 </head>
 <body>
 <a class="skip-link" href="#contenu">Aller au contenu principal</a>
